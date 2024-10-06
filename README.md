@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# NASA Astronomy Picture of the Day & Mars Rovers App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based application that uses NASA's **Astronomy Picture of the Day (APOD)** and **Mars Rovers** APIs. The app allows users to explore NASA's daily space images and photos taken by Mars rovers. This guide will explain how to set up, start, run, and use the application.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [NASA Astronomy Picture of the Day \& Mars Rovers App](#nasa-astronomy-picture-of-the-day--mars-rovers-app)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [Setup Instructions](#setup-instructions)
+    - [Prerequisites](#prerequisites)
+    - [1. Clone the Repository](#1-clone-the-repository)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This web application allows users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View NASA's **Astronomy Picture of the Day** (APOD) with an image and detailed description.
+- Explore **Mars Rover** photos by date or sol (Martian solar day) using NASA's Mars Rover API.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Display the Astronomy Picture of the Day (APOD) with descriptions.
+- Fetch and display Mars Rover photos by date or sol.
+- Responsive design for mobile and desktop.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **NASA APIs**: The application interacts with NASA's APOD and Mars Rover APIs to fetch data.
+- **CSS3**: Styling the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure the following are installed on your machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Node.js** (version 12 or later)
+- **npm** (comes with Node.js)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a copy of the project, run the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/walidchb/nasa-front.git
 
-## Learn More
+cd nasa-front
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install Dependencies
 
-### Code Splitting
+Navigate to the project folder and install the required dependencies by running:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Start the Application
+Once the dependencies are installed, you can start the development server with the following command:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+This will launch the application, and you can access it in your browser at http://localhost:3000.
+```
